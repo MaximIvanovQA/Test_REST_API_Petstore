@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Petstore", "Test_Petstore.csproj", "{0B683ABE-A32E-4B30-9795-043DFF5182BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Framework", "..\Test_Framework\Test_Framework.csproj", "{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B683ABE-A32E-4B30-9795-043DFF5182BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B683ABE-A32E-4B30-9795-043DFF5182BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B683ABE-A32E-4B30-9795-043DFF5182BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B683ABE-A32E-4B30-9795-043DFF5182BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9A76F9A-6044-4AFB-9984-95AE517799A9}
+	EndGlobalSection
+EndGlobal

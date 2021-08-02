@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1eEV2fG3ZZhytmFEg8Iwkh5ODE5Od3xwPKu8cnM/2JSg6O4fHZRWff4EHnjf0zKzd9/WtubjOO8qsrIybm4iQ==",
+  "success": true,
+  "projectFilePath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Petstore\\Test_Petstore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarak\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\tarak\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\tarak\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\tarak\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

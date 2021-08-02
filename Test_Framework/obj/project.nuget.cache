@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cYdtbeaQPZqVJQiGWn+ZW8kBBdev0IsroLORQCvVY2xwLkWd5M9gxg0EX39YPZG1S2LspD7RW4Sy2dtcI+y0CQ==",
+  "success": true,
+  "projectFilePath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\Test_Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarak\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

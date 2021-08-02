@@ -1,0 +1,15 @@
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\NUnit3.TestAdapter.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\NUnit3.TestAdapter.pdb
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\nunit.engine.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\nunit.engine.api.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\Test_Petstore.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\Test_Petstore.pdb
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\bin\Debug\net462\nunit.framework.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.csproj.AssemblyReference.cache
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.AssemblyInfoInputs.cache
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.AssemblyInfo.cs
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.csproj.CoreCompileInputs.cache
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.csproj.CopyComplete
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.dll
+D:\C_test\Test_REST_API_Petstore\Test_Petstore\obj\Debug\net462\Test_Petstore.pdb

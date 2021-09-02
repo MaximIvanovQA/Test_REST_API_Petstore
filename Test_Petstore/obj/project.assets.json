@@ -45,6 +45,16 @@
         "build": {
           "build/net35/NUnit3TestAdapter.props": {}
         }
+      },
+      "Test_Framework/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Test_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test_Framework.dll": {}
+        }
       }
     }
   },
@@ -156,13 +166,19 @@
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
       ]
+    },
+    "Test_Framework/1.0.0": {
+      "type": "project",
+      "path": "../Test_Framework/Test_Framework.csproj",
+      "msbuildProject": "../Test_Framework/Test_Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.2": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.16.1",
+      "Test_Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -191,7 +207,11 @@
       "frameworks": {
         "net462": {
           "targetAlias": "net462",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\Test_Framework.csproj": {
+              "projectPath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\Test_Framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -217,8 +237,19 @@
             "version": "[3.16.1, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект Test_Framework несовместим с net462 (.NETFramework,Version=v4.6.2). Проект Test_Framework поддерживает: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Test_Framework",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.2"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Y1eEV2fG3ZZhytmFEg8Iwkh5ODE5Od3xwPKu8cnM/2JSg6O4fHZRWff4EHnjf0zKzd9/WtubjOO8qsrIybm4iQ==",
-  "success": true,
+  "dgSpecHash": "+Msg+8B4vkS25RkoyVXLGXI5rORJhP2biqbt688UXTJarP0kFFzmb23xsw2lbFLu1urgyKoToS/LhTSOtqal6g==",
+  "success": false,
   "projectFilePath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Petstore\\Test_Petstore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tarak\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -9,5 +9,15 @@
     "C:\\Users\\tarak\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\tarak\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект Test_Framework несовместим с net462 (.NETFramework,Version=v4.6.2). Проект Test_Framework поддерживает: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Test_Framework",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.2"
+      ]
+    }
+  ]
 }

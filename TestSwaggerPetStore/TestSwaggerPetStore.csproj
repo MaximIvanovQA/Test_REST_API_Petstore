@@ -20,4 +20,9 @@
     <ProjectReference Include="..\Test_Framework\Test_Framework.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SwaggerPetstore\Tests\Store\" />
+    <Folder Include="SwaggerPetstore\Tests\User\" />
+  </ItemGroup>
+
 </Project>

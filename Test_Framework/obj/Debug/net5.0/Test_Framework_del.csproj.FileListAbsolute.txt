@@ -1,0 +1,12 @@
+D:\C_test\Test_REST_API_Petstore\Test_Framework\bin\Debug\net5.0\Test_Framework_del.deps.json
+D:\C_test\Test_REST_API_Petstore\Test_Framework\bin\Debug\net5.0\Test_Framework_del.dll
+D:\C_test\Test_REST_API_Petstore\Test_Framework\bin\Debug\net5.0\ref\Test_Framework_del.dll
+D:\C_test\Test_REST_API_Petstore\Test_Framework\bin\Debug\net5.0\Test_Framework_del.pdb
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.csproj.AssemblyReference.cache
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.GeneratedMSBuildEditorConfig.editorconfig
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.AssemblyInfoInputs.cache
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.AssemblyInfo.cs
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.csproj.CoreCompileInputs.cache
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.dll
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\ref\Test_Framework_del.dll
+D:\C_test\Test_REST_API_Petstore\Test_Framework\obj\Debug\net5.0\Test_Framework_del.pdb

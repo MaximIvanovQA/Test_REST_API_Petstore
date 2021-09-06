@@ -10,6 +10,8 @@ namespace Test_Framework.BusnesObjects.RestObjects.SwaggerPetstore
     {
         public int petId { get; set; }
         public string additionalMetadata { get; set; }
+        
+        //public file file { get: set; }
 
     }
 }

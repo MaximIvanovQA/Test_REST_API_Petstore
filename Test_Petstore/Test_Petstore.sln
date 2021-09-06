@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_Framework", "..\Test_Framework\Test_Framework.csproj", "{5BDB7CE7-2657-4EFB-AB2C-195B2B5A6CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSwaggerPetStore", "..\TestSwaggerPetStore\TestSwaggerPetStore.csproj", "{D3B93E94-EA00-417C-AD9F-5C969D002722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSwaggerPetStore", "..\TestSwaggerPetStore\TestSwaggerPetStore.csproj", "{D3B93E94-EA00-417C-AD9F-5C969D002722}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

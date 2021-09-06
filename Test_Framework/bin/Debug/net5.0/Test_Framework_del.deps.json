@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Test_Framework/1.0.0": {
+      "Test_Framework_del/1.0.0": {
         "dependencies": {
           "NUnit": "3.13.2",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.12.0"
         },
         "runtime": {
-          "Test_Framework.dll": {}
+          "Test_Framework_del.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -52,7 +52,7 @@
     }
   },
   "libraries": {
-    "Test_Framework/1.0.0": {
+    "Test_Framework_del/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

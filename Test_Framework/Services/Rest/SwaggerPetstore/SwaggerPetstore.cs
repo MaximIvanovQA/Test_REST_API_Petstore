@@ -7,7 +7,7 @@ using RestSharp;
 namespace Test_Framework.Services.Rest.SwaggerPetstore
 {
     /// <summary>
-    /// Клас для работы с api Swagger Petstore 
+    /// Класc для работы с api Swagger Petstore 
     /// (https://petstore.swagger.io/#/user/loginUser)
     /// </summary>
     /// <author>Maksim Ivanov</author>
@@ -15,7 +15,7 @@ namespace Test_Framework.Services.Rest.SwaggerPetstore
     public class SwaggerPetstore
     {
         #region pet/uploadImage
-        private const string petUploadImageResponseUrl = "/pet/{petId}/uploadImage";
+        
         public petUploadImageResponse UploadImageResponse { get; set; }
         public petUploadImageRequest UploadImageRequest { get; set; }
 
@@ -24,7 +24,7 @@ namespace Test_Framework.Services.Rest.SwaggerPetstore
             int repeat = 2;
             while (repeat > 0)
             {
-                var url = swagger + petUploadImageResponseUrl;
+                var url = swagger + "/pet/" + requestParams.petId + "/uploadImage";
                 var client = new RestClient(url);
                 var request = new RestRequest();
                 request.AddParameter("petId", requestParams.petId);

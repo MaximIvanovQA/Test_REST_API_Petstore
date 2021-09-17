@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="SwaggerPetstore\Tests\Store\" />
     <Folder Include="SwaggerPetstore\Tests\User\" />
+    <Folder Include="Restful-Booker\" />
   </ItemGroup>
 
 </Project>

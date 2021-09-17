@@ -7,14 +7,24 @@ namespace TestSwaggerPetStore.SwaggerPetstore.Tests.Pet
     class Get_FindPet : SwaggerPetstoreBaseTest
     {
         [Test]
-        public void NegativeSmoke()
+        public void PositiveSmoke()
         {
-            var id = 37162363;
+            string idError = "Id не совпадает с ожидемым";
+            string nameCategoryNotEquels = "Имя в категории не соответствует ожидаемому";
+            string nameNotEquels = "Имя животного не соответсвует ожидаемому";
+            string breed = "Порода не соответсвует ожидаемому";
+            string statusNotEquls = "Статус не соответствует ожидаемому";
+
+            int id = 7574746;
 
             FindPet(id);
 
-            Assert.IsNotNull(GetTest.SwaggerPetstore.FindPetResponse.id);
-           
+            Assert.IsTrue(GetTest.SwaggerPetstore.FindPetResponse.id == id.ToString(), idError);
+            Assert.IsTrue(GetTest.SwaggerPetstore.FindPetResponse.category.name == "Cat", nameCategoryNotEquels);
+            Assert.IsTrue(GetTest.SwaggerPetstore.FindPetResponse.name == "Hardy", nameNotEquels);
+            Assert.IsTrue(GetTest.SwaggerPetstore.FindPetResponse.tags[0].name == "Mainecoon", breed);
+            Assert.IsTrue(GetTest.SwaggerPetstore.FindPetResponse.status == "sold", statusNotEquls);
+
         }
     }
 }

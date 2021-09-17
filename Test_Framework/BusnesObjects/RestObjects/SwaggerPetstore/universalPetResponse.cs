@@ -23,8 +23,8 @@ namespace Test_Framework.BusnesObjects.RestObjects.SwaggerPetstore
 
         public class tagsHelper
         {
-            int id { get; set; }
-            string name { get; set; }
+            public int id { get; set; }
+            public string name { get; set; }
         }
 
 

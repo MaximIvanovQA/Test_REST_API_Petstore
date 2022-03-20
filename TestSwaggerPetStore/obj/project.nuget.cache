@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UsWKK80u0bJcORGO4aoNI564uWVruUMzpNvkmLA/F51YQxjuhUWC1uCmjK1d7+jUdBWgFiFBU60qTNdbaDsD/Q==",
+  "dgSpecHash": "cWrdz+/Mg1xq/rqG8ZTpgvXbYXa2gTnLgbdehaT06B0Gj6MWdG9F0TgqtWwJhxxIvWGA8Lkl2ZInpcRrw9LnxA==",
   "success": true,
   "projectFilePath": "D:\\C_test\\Test_REST_API_Petstore\\TestSwaggerPetStore\\TestSwaggerPetStore.csproj",
   "expectedPackageFiles": [

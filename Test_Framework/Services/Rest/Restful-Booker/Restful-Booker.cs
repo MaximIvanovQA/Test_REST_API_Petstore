@@ -15,5 +15,16 @@ namespace Test_Framework.Services.Rest.Restful_Booker
 
     class Restful_Booker
     {
+        #region Auth
+        #endregion
+
+        #region Booking
+
+        #endregion
+
+        #region Ping - HealthCheck
+
+        #endregion
+
     }
 }

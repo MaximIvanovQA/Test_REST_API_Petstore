@@ -29,8 +29,8 @@ namespace Test_Framework.BaseTest
         {
             string swagger = "https://petstore.swagger.io/v2";
             var getRequest = new petUploadImageRequest();
-            getRequest.petId = petId;
-            getRequest.additionalMetadata = additionalMetadata;
+            //getRequest.petId = petId;
+            //getRequest.additionalMetadata = additionalMetadata;
             GetTest.SwaggerPetstore.UploadImageResponse = GetTest.SwaggerPetstore.SendUploadImage(getRequest, swagger, false);
         }
     }

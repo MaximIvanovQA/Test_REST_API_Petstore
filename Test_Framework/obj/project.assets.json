@@ -283,26 +283,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tarak\\.nuget\\packages\\": {}
+    "/home/maksim/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\Test_Framework.csproj",
+      "projectUniqueName": "/home/maksim/Документы/ProgrammingProjects/CSProjects/Test_REST_API_Petstore.git/Test_Framework/Test_Framework.csproj",
       "projectName": "Test_Framework",
-      "projectPath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\Test_Framework.csproj",
-      "packagesPath": "C:\\Users\\tarak\\.nuget\\packages\\",
-      "outputPath": "D:\\C_test\\Test_REST_API_Petstore\\Test_Framework\\obj\\",
+      "projectPath": "/home/maksim/Документы/ProgrammingProjects/CSProjects/Test_REST_API_Petstore.git/Test_Framework/Test_Framework.csproj",
+      "packagesPath": "/home/maksim/.nuget/packages/",
+      "outputPath": "/home/maksim/Документы/ProgrammingProjects/CSProjects/Test_REST_API_Petstore.git/Test_Framework/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tarak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/maksim/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -344,12 +342,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
